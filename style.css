@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.container {
+  width: 350px;
+  height: 400px;
+  box-shadow: 0px 1px 2px 1px hsl(0, 0%, 70%);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.container h3 {
+  font-family: Cambria Math;
+  text-align: center;
+  /* text-shadow: 3px 3px 3px maroon;*/
+  padding-top: 12px;
+}
+.container #enter {
+  padding-left: 12px;
+  padding-top: 12px;
+  font-family: Segoe UI Symbol;
+}
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.inputs .pr {
+  margin: 11px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.inputs .pr input {
+  margin: 5px;
+  width: 80px;
+  height: 30px;
+  padding-left: 6px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 1px 2px 1px hsl(0, 0%, 70%);
+  border-radius: 5px;
+}
+.resul {
+  margin-top: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.resul input {
+  width: 130px;
+  padding-left: 8px;
+  height: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 1px 2px 1px hsl(0, 0%, 70%);
+}
+#firs {
+  border-top-left-radius: 19px;
+  border-bottom-left-radius: 19px;
+}
+#sec {
+  border-top-right-radius: 19px;
+  border-bottom-right-radius: 19px;
+}
+.re {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.buttons {
+  margin-top: 90px;
+  display: flex;
+  width: 1005;
+  justify-content: center;
+}
+.buttons div {
+  padding-left: 6px;
+}
+.buttons button {
+  height: 40px;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  font-family: consolas;
+  box-shadow: 0px 1px 2px 1px hsl(0, 0%, 70%);
+}
+.second_bu button {
+  background-color: hsla(0, 90%, 30%, 1);
+  color: white;
+  font-weight: bold;
+}
+.second_bu button:active {
+  background-color: hsla(0, 90%, 10%, 1);
+}
+.inputs #A,
+#B,
+#C {
+  font-family: mangia;
+  color: hsl(0, 80%, 30%);
+}
